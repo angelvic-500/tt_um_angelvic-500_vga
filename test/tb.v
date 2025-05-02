@@ -25,7 +25,7 @@ module tb ();
 `ifdef GL_TEST
   wire VPWR = 1'b1;
   wire VGND = 1'b0;
-`endif
+`endif 
 
   // Replace tt_um_example with your module name:
   tt_um_angelvic-500_vga user_project (
